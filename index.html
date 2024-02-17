@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>HTTP-Video Streaming</title>
+  <style>
+    body {
+      margin: 40px auto;
+      max-width: 650px;
+      line-height: 1.6;
+      font-size: 18px;
+      font-family: "Courier New", Courier, monospace;
+      color: #444;
+      padding: 0 10px;
+    }
+
+    h2 {
+      line-height: 1.2;
+      color: #2ecc71;
+      text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+    }
+
+    p {
+      color: #3498db;
+    }
+
+    video {
+      width: 100%;
+      border: 5px solid #cdf8a2;
+      border-radius: 10px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
+    }
+
+    i {
+      display: block;
+      margin-top: 20px;
+      text-align: center;
+      color: #faa620;
+      font-style: italic;
+      text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    }
+  </style>
+</head>
+
+<body>
+  <h2>HTTP-Video Streaming</h2>
+  <p>This video is streaming instead of downloading.</p>
+  <video id="videoPlayer" controls muted="muted" autoplay>
+    <source src="http://localhost:8000/video" type="video/mp4" />
+  </video>  
+  <i>&copy; 2024 AceXeon. All Rights Reserved.</i>
+</body>
+
+</html>

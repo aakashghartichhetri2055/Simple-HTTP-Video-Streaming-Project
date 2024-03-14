@@ -1,5 +1,5 @@
 # Simple HTTP Video Streaming Project
-This repository presents an academic project focusing on HTTP video streaming, employing JavaScript & CSS for the frontend and NodeJS for the backend. The goal of this project is to demonstrate efficient video streaming practices within a web application context.
+This repository presents an academic project focusing on HTTP video streaming, employing JavaScript & CSS for the frontend and NodeJS for the backend. The goal of this project is to demonstrate efficient video streaming practices within a web application context, Like a online video streaming platform does.
 
 ## Table of Contents
 - Introduction
